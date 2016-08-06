@@ -1,0 +1,18 @@
+{
+    "name": "boscot/game-criminalcase",
+    "authors": [
+        {
+            "name": "Richard",
+            "email": "richard@boscot.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "path",
+            "url": "/var/www/boscot/core"
+        }
+    ],
+    "require": {
+      "boscot/core": "dev-master"
+    }
+}

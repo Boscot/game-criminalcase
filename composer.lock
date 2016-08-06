@@ -1,0 +1,43 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
+        "This file is @generated automatically"
+    ],
+    "hash": "1b913ad871b7baf3a61e3e1c52c2c255",
+    "content-hash": "0168c2bd9febde862dd0ac0f20981151",
+    "packages": [
+        {
+            "name": "boscot/core",
+            "version": "dev-master",
+            "dist": {
+                "type": "path",
+                "url": "/var/www/boscot/core",
+                "reference": "643519d6309d29f7fd383969c610f33c9eb69dc1",
+                "shasum": null
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Boscot\\": "src"
+                }
+            },
+            "authors": [
+                {
+                    "name": "Richard",
+                    "email": "richard@boscot.com"
+                }
+            ]
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "boscot/core": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": []
+}
